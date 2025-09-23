@@ -5,7 +5,7 @@ import prettierPlugin from 'eslint-plugin-prettier';
 
 export default defineConfig([
   js.configs.recommended,
-  prettierConfig,
+  prettierConfig, // disables ESLint rules that conflict with Prettier
   {
     files: ['**/*.js'],
     plugins: {
@@ -15,8 +15,16 @@ export default defineConfig([
       'no-unused-vars': 'warn',
       'no-undef': 'warn',
       semi: ['error', 'always'],
+      quotes: ['error', 'single'], // enforce single quotes in ESLint itself
 
-      'prettier/prettier': 'error',
+      // Prettier formatting rules
+      'prettier/prettier': [
+        'error',
+        {
+          singleQuote: true,
+          semi: true,
+        },
+      ],
     },
   },
 ]);
