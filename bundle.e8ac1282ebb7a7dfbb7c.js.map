@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.e8ac1282ebb7a7dfbb7c.js","mappings":"mBAEAA,QAAQC,IAAI,iCACZD,QAAQC,IAAI,gC","sources":["webpack://webapck-starter/./src/index.js"],"sourcesContent":["import './style.css';\n\nconsole.log('Hello from Webpack Starter 🚀');\nconsole.log('Hello from Webpack Starter 🚀');\n"],"names":["console","log"],"sourceRoot":""}

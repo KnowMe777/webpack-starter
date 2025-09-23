@@ -1,0 +1,1 @@
+{"version":3,"file":"styles.7d9dbd20c0248b4e09db.css","mappings":"AAAA;EACE,uBAAuB;EACvB,mBAAmB;EACnB,kBAAkB;EAClB,aAAa;AACf","sources":["webpack://webapck-starter/./src/style.css"],"sourcesContent":["body {\n  font-family: sans-serif;\n  background: #f9f9f9;\n  text-align: center;\n  padding: 2rem;\n}\n"],"names":[],"sourceRoot":""}
